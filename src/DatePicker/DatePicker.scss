@@ -1,0 +1,38 @@
+@import '../App/vars';
+
+input#custom-input-date,
+label {
+  display: block;
+  outline: none;
+}
+
+.input-field {
+  margin-bottom: 1.25rem;
+}
+
+label {
+  position: relative;
+  &::after {
+    content: url('../icons/calendar.svg');
+    position: absolute;
+    top: 12px;
+    left: 11px;
+    z-index: 1;
+  }
+}
+
+input#custom-input-date {
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 0.960366px solid $mainColor;
+  border-radius: 7.68293px;
+  line-height: 20px;
+  color: $mainColor;
+  &::placeholder {
+    padding-left: 45px;
+  }
+  @media (max-width: $tablet) {
+    width: 100%;
+  }
+}

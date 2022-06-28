@@ -4,7 +4,9 @@ import './Backing.scss';
 
 const Backing = () => {
   return (
-    <div>Backing</div>
+    <div className='backing'>
+
+    </div>
   )
 }
 

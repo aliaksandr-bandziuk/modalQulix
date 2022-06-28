@@ -2,9 +2,17 @@ import React from 'react';
 
 import './App.scss';
 
+// import Backing from '../Backing';
+import Modal from '../Modal';
+
 const App = () => {
   return (
-    <div>App</div>
+    <main className='app'>
+      <div className="app__content">
+        {/* <Backing /> */}
+        <Modal />
+      </div>
+    </main>
   )
 }
 

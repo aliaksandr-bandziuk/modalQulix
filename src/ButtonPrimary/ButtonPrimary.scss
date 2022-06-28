@@ -1,0 +1,8 @@
+@import '../App/vars';
+@import '../App/mixins';
+
+.button-primary {
+  @include button;
+  color: $primaryColor;
+  background-color: $primaryBackground;
+}

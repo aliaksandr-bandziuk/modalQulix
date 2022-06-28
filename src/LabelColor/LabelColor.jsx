@@ -4,7 +4,7 @@ import './LabelColor.scss';
 
 const LabelColor = () => {
   return (
-    <div>LabelColor</div>
+    <div className="label__color"></div>
   )
 }
 

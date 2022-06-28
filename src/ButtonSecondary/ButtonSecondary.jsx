@@ -2,9 +2,11 @@ import React from 'react';
 
 import './ButtonSecondary.scss';
 
-const ButtonSecondary = () => {
+const ButtonSecondary = props => {
   return (
-    <div>ButtonSecondary</div>
+    <button className="button-secondary">
+      {props.children}
+    </button>
   )
 }
 

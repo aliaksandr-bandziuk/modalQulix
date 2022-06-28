@@ -1,0 +1,23 @@
+@import '../App/vars';
+
+.input__text {
+  position: relative;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid $mainColor;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  margin-bottom: $bottomBlock;
+}
+.input__counter {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  padding-right: 5px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  bottom: 12px;
+  z-index: 1;
+}

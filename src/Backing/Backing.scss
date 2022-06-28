@@ -1,0 +1,15 @@
+@import '../App/vars';
+
+.backing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 80px;
+  z-index: -1;
+  width: 475px;
+  height: 597px;
+  border: 1px solid $primaryColor;
+  border-radius: $borderRadius;
+  transform: rotate(2deg);
+}
