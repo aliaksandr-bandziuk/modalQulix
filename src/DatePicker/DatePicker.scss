@@ -32,6 +32,9 @@ input#custom-input-date {
   &::placeholder {
     padding-left: 45px;
   }
+  &::-moz-placeholder {
+    padding-left: 45px;
+  }
   @media (max-width: $tablet) {
     width: 100%;
   }
