@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/modal_qulix/static/css/main.8582e346.css",
+    "main.js": "/modal_qulix/static/js/main.02e46e2c.js",
+    "static/media/calendar.svg": "/modal_qulix/static/media/calendar.5c5eb705056f72a4532b.svg",
+    "static/media/user.svg": "/modal_qulix/static/media/user.ca42cf7688882cf420d9.svg",
+    "index.html": "/modal_qulix/index.html",
+    "static/media/check.svg": "/modal_qulix/static/media/check.54076555061d4650741d.svg",
+    "static/media/arrow.svg": "/modal_qulix/static/media/arrow.c74cecda44310e725498.svg",
+    "main.8582e346.css.map": "/modal_qulix/static/css/main.8582e346.css.map",
+    "main.02e46e2c.js.map": "/modal_qulix/static/js/main.02e46e2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8582e346.css",
+    "static/js/main.02e46e2c.js"
+  ]
+}
